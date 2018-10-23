@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/sharethis"
+        android:title="@string/action_share"
+        app:showAsAction="always" />
+    <!--<item android:title="ഭാഷ മാറ്റുക"-->
+        <!--android:id="@+id/lang"/>-->
+    <item android:id="@+id/action_feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about"
+        android:title="About Us" />
+
+
+</menu>

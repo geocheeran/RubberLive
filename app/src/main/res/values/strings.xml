@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RubberLive</string>
+    <string name="kottayam">Kottayam</string>
+    <string name="kochi">Kochi</string>
+    <string name="bangkok">Bangkok</string>
+    <string name="kualalumpur">Kualalumpur</string>
+    <string name="domestic">Domestic Prices</string>
+    <string name="international">International Prices</string>
+    <string name="bangkokml">Bangkok</string>
+    <string name="domesticml">Domestic Prices</string>
+    <string name="load">Refresh</string>
+    <string name="action_share">Share</string>
+    <string name="title_develop">Developed With ❤ By</string>
+    <string name="title_zidmail">sinadinzidanbava@gmail.com</string>
+    <string name="zid">SINADIN ZIDAN K</string>
+    <string name="title_geomail">geojosecheeramkuzhy@gmail.com</string>
+    <string name="geo">GEO JOSE CHEERAMKUZHY</string>
+    <string name="title_shamail">shaheem.mpm@gmail.com</string>
+    <string name="sha">MOHAMMED SHAHEEM</string>
+    <string name="jee">JEEVAN GEORGE</string>
+    <string name="title_jeemail">jeevjeo99@gmail.com</string>
+    <string name="cyr">CYRIAC BIJU</string>
+    <string name="title_cyrmail">cyriacbijun@gmail.com</string>
+    <string name="felix">Mentor : Felix Josemon</string>
+    <string name="felmail">hello@felixjosemon.com</string>
+    <string name="gect">Government Engineering College, Thrissur</string>
+    <string name="mail_feedback_email">geocheeramkuzhy@gmail.com</string>
+</resources>

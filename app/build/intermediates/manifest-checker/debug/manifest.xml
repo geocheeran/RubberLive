@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cbdev.rubberlive"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name="cbdev.rubberlive.BootReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cbdev.rubberlive.AlarmNotificationReceiver" />
+
+        <activity
+            android:name="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cbdev.rubberlive.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cbdev.rubberlive.AboutActivity"
+            android:label="About Us"
+            android:parentActivityName="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.about" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="cbdev.rubberlive.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="cbdev.rubberlive.priceKottayam"
+            android:label="Latest Price - Kottayam"
+            android:parentActivityName="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cbdev.rubberlive.priceKochi"
+            android:label="Latest Price - Kochi"
+            android:parentActivityName="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cbdev.rubberlive.priceBangkok"
+            android:label="Latest Price - Bangkok"
+            android:parentActivityName="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cbdev.rubberlive.priceKualalumpur"
+            android:label="Latest Price - Kuala Lumpur"
+            android:parentActivityName="cbdev.rubberlive.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="cbdev.rubberlive.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

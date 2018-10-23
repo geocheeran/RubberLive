@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Sep 08 23:39:18 IST 2018
+0.baseType=DIRECTORY
+0.base=/Users/geo_cheeran/Downloads/RubberLive-2-1/app/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+0.set=DEX
+count=1
