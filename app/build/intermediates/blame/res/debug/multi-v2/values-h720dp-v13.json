@@ -4,7 +4,7 @@
             "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/c217146f75bae827abd4932d2bd56acb/appcompat-v7-27.0.2/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0cb397ecad1e4939e7a86ecd93a2c6d3/appcompat-1.0.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

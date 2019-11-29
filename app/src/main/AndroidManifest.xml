@@ -1,10 +1,12 @@
 <?xml version="1.1" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cbdev.rubberlive"
     android:versionCode="2"
     android:versionName="2.0.1">
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <receiver android:name=".BootReceiver"
+        <receiver
+            android:name=".BootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -23,13 +26,29 @@
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".AlarmNotificationReceiver"/>
+        <receiver android:name=".AlarmNotificationReceiver" />
 
 
-        <activity android:name="cbdev.rubberlive.MainActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name="cbdev.rubberlive.SplashActivity"
+        <activity
+            android:name="cbdev.rubberlive.MainActivity"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="dkowsikpai.pythonanywhere.com"
+                    android:path="/index" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cbdev.rubberlive.SplashActivity"
+            android:screenOrientation="portrait">
+            <tools:validation testUrl="https://dkowsikpai.pythonanywhere.com/index" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,12 +60,12 @@
             android:label="About Us"
             android:parentActivityName="cbdev.rubberlive.MainActivity"
             android:screenOrientation="portrait">
-        <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.about" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-         </activity>
+        </activity>
 
         <service
             android:name=".MyService"
@@ -58,22 +77,22 @@
             android:name="cbdev.rubberlive.priceKottayam"
             android:label="Latest Price - Kottayam"
             android:parentActivityName="cbdev.rubberlive.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="cbdev.rubberlive.priceKochi"
             android:label="Latest Price - Kochi"
             android:parentActivityName="cbdev.rubberlive.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="cbdev.rubberlive.priceBangkok"
             android:label="Latest Price - Bangkok"
             android:parentActivityName="cbdev.rubberlive.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name="cbdev.rubberlive.priceKualalumpur"
             android:label="Latest Price - Kuala Lumpur"
             android:parentActivityName="cbdev.rubberlive.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

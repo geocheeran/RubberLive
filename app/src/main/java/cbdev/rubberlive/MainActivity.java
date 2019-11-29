@@ -1,34 +1,20 @@
 package cbdev.rubberlive;
 
-import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import android.os.SystemClock;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.CookieManager;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
-
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Calendar;
 
 import static cbdev.rubberlive.R.*;
 
@@ -50,12 +36,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-            if (getIntent().getBooleanExtra("closeornot", false)) {
-                finish();
+        if (getIntent().getBooleanExtra("closeornot", false)) {
+            finish();
 
         }
         setContentView(R.layout.main_activity);
-
 
 
         btnKot = findViewById(id.btnKottayam);
@@ -96,6 +81,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        // ATTENTION: This was auto-generated to handle app links.
+        Intent appLinkIntent = getIntent();
+        String appLinkAction = appLinkIntent.getAction();
+        Uri appLinkData = appLinkIntent.getData();
     }
 
     @Override

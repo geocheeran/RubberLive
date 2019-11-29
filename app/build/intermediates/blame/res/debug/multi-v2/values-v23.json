@@ -4,7 +4,18 @@
             "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/88734d53490c7da36bbb1a9a8d0e8323/cardview-v7-27.0.2/res/values-v23/values-v23.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0cb397ecad1e4939e7a86ecd93a2c6d3/appcompat-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/e7d5f1c4e4cfa0820ea5cf65cef5f1e9/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,17 +31,6 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2791"
-                    }
-                },
-                {
-                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/c217146f75bae827abd4932d2bd56acb/appcompat-v7-27.0.2/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]
