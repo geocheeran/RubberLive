@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cbdev.rubberlive"
+4    android:versionCode="5"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:7:5-67
+11-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:8:5-78
+12-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:25:5-68
+13-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:26:5-110
+14-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:26:22-79
+16
+17    <permission
+17-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
+18        android:name="cbdev.rubberlive.permission.C2D_MESSAGE"
+18-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
+19        android:protectionLevel="signature" />
+19-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
+20
+21    <uses-permission android:name="cbdev.rubberlive.permission.C2D_MESSAGE" />
+21-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
+21-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
+22
+23    <application
+23-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:10:5-82:19
+24        android:allowBackup="true"
+24-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:11:9-35
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:13:9-41
+28        android:roundIcon="@drawable/ic_launcher"
+28-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:14:9-50
+29        android:supportsRtl="true"
+29-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:16:9-40
+32        <receiver
+32-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:18:9-26:20
+33            android:name="cbdev.rubberlive.BootReceiver"
+33-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:18:19-47
+34            android:enabled="true"
+34-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:19:13-35
+35            android:exported="true" >
+35-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.BOOT_COMPLETED" />
+37-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:22:17-79
+37-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:22:25-76
+38
+39                <category android:name="android.intent.category.HOME" />
+39-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:24:17-73
+39-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:24:27-70
+40            </intent-filter>
+41        </receiver>
+42        <receiver android:name="cbdev.rubberlive.AlarmNotificationReceiver" />
+42-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:27:9-62
+42-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:27:19-60
+43
+44        <activity
+44-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:30:9-31:61
+45            android:name="cbdev.rubberlive.MainActivity"
+45-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:30:19-63
+46            android:screenOrientation="portrait" />
+46-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:31:13-49
+47        <activity
+47-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:32:9-39:20
+48            android:name="cbdev.rubberlive.SplashActivity"
+48-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:32:19-65
+49            android:screenOrientation="portrait" >
+49-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:33:13-49
+50            <intent-filter>
+50-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:34:13-38:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:35:17-69
+51-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:35:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:37:17-77
+53-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:37:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:40:9-50:21
+57            android:name="cbdev.rubberlive.AboutActivity"
+57-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:41:13-58
+58            android:label="About Us"
+58-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:42:13-37
+59            android:parentActivityName="cbdev.rubberlive.MainActivity"
+59-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:43:13-71
+60            android:screenOrientation="portrait" >
+60-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:44:13-49
+61            <intent-filter>
+61-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:45:9-49:29
+62                <action android:name="android.intent.action.about" />
+62-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:46:17-70
+62-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:46:25-67
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:48:17-76
+64-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:48:27-73
+65            </intent-filter>
+66        </activity>
+67
+68        <service
+68-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:52:9-55:47
+69            android:name="cbdev.rubberlive.MyService"
+69-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:53:13-38
+70            android:enabled="true"
+70-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:54:13-35
+71            android:exported="true" />
+71-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:55:13-36
+72
+73        <activity
+73-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:58:9-62:51
+74            android:name="cbdev.rubberlive.priceKottayam"
+74-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:59:13-58
+75            android:label="Latest Price - Kottayam"
+75-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:60:13-52
+76            android:parentActivityName="cbdev.rubberlive.MainActivity"
+76-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:61:13-71
+77            android:screenOrientation="portrait" />
+77-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:62:13-49
+78        <activity
+78-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:63:9-67:51
+79            android:name="cbdev.rubberlive.priceKochi"
+79-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:64:13-55
+80            android:label="Latest Price - Kochi"
+80-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:65:13-49
+81            android:parentActivityName="cbdev.rubberlive.MainActivity"
+81-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:66:13-71
+82            android:screenOrientation="portrait" />
+82-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:67:13-49
+83        <activity
+83-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:68:9-72:51
+84            android:name="cbdev.rubberlive.priceBangkok"
+84-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:69:13-57
+85            android:label="Latest Price - Bangkok"
+85-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:70:13-51
+86            android:parentActivityName="cbdev.rubberlive.MainActivity"
+86-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:71:13-71
+87            android:screenOrientation="portrait" />
+87-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:72:13-49
+88        <activity
+88-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:73:9-77:51
+89            android:name="cbdev.rubberlive.priceKualalumpur"
+89-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:74:13-61
+90            android:label="Latest Price - Kuala Lumpur"
+90-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:75:13-56
+91            android:parentActivityName="cbdev.rubberlive.MainActivity"
+91-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:76:13-71
+92            android:screenOrientation="portrait" />
+92-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:77:13-49
+93
+94        <meta-data
+94-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:79:9-81:57
+95            android:name="preloaded_fonts"
+95-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:80:13-43
+96            android:resource="@array/preloaded_fonts" />
+96-->/home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:81:13-54
+97
+98        <receiver
+98-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:29:9-33:20
+99            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+99-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:30:13-85
+100            android:enabled="true"
+100-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:31:13-35
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:32:13-37
+102        </receiver>
+103        <receiver
+103-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:34:9-42:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+104-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:35:13-100
+105            android:enabled="true"
+105-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:36:13-35
+106            android:exported="true"
+106-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:37:13-36
+107            android:permission="android.permission.INSTALL_PACKAGES" >
+107-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:38:13-69
+108            <intent-filter>
+108-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:39:13-41:29
+109                <action android:name="com.android.vending.INSTALL_REFERRER" />
+109-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:40:17-79
+109-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:40:25-76
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:44:9-47:40
+114            android:name="com.google.android.gms.measurement.AppMeasurementService"
+114-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:45:13-84
+115            android:enabled="true"
+115-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:46:13-35
+116            android:exported="false" />
+116-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:47:13-37
+117        <service
+117-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:48:9-52:72
+118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+118-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:49:13-87
+119            android:enabled="true"
+119-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:50:13-35
+120            android:exported="false"
+120-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:51:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/919bb19a220f987258223a1693c9509b/firebase-analytics-16.0.0/AndroidManifest.xml:52:13-69
+122        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+122-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:35:9-39:19
+122-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:35:18-89
+123            <meta-data
+123-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:36:13-38:85
+124                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+124-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:37:17-96
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:38:17-82
+126        </service>
+127
+128        <receiver
+128-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:41:9-50:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:43:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:44:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
+133-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
+134
+135                <category android:name="cbdev.rubberlive" />
+135-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
+135-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
+136            </intent-filter>
+137        </receiver>
+138        <!--
+139             FirebaseInstanceIdService performs security checks at runtime,
+140             no need for explicit permissions despite exported="true"
+141        -->
+142        <service
+142-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:56:9-62:19
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+143-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:57:13-77
+144            android:exported="true" >
+144-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
+145            <intent-filter android:priority="-500" >
+145-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:59:13-61:29
+145-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:59:28-51
+146                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+146-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:60:17-80
+146-->[com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dfa88aa27a35fa2fdd7ccb92ac8f066e/firebase-iid-16.0.0/AndroidManifest.xml:60:25-77
+147            </intent-filter>
+148        </service>
+149
+150        <provider
+150-->[com.google.firebase:firebase-common:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0130eb5bba69275131de1a8f27458b99/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
+151            android:name="com.google.firebase.provider.FirebaseInitProvider"
+151-->[com.google.firebase:firebase-common:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0130eb5bba69275131de1a8f27458b99/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
+152            android:authorities="cbdev.rubberlive.firebaseinitprovider"
+152-->[com.google.firebase:firebase-common:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0130eb5bba69275131de1a8f27458b99/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0130eb5bba69275131de1a8f27458b99/firebase-common-16.0.0/AndroidManifest.xml:12:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0130eb5bba69275131de1a8f27458b99/firebase-common-16.0.0/AndroidManifest.xml:13:13-36
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/b9b6020ae7333a2aac0935f3e5dd6e97/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/b9b6020ae7333a2aac0935f3e5dd6e97/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/b9b6020ae7333a2aac0935f3e5dd6e97/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/b9b6020ae7333a2aac0935f3e5dd6e97/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/63c123735d6d886f1566d9a70edbc12c/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/63c123735d6d886f1566d9a70edbc12c/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:15.0.1] /home/hp/.gradle/caches/transforms-2/files-2.1/63c123735d6d886f1566d9a70edbc12c/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+164        <meta-data
+164-->[com.android.support:support-v4:26.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6b407c900b1ead6e3743b71fbe19b5d5/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+165            android:name="android.support.VERSION"
+165-->[com.android.support:support-v4:26.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6b407c900b1ead6e3743b71fbe19b5d5/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+166            android:value="26.1.0" />
+166-->[com.android.support:support-v4:26.1.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6b407c900b1ead6e3743b71fbe19b5d5/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+167    </application>
+168
+169</manifest>

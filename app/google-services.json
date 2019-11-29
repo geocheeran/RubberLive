@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915046033254",
+    "firebase_url": "https://rubberlive-6ab72.firebaseio.com",
+    "project_id": "rubberlive-6ab72",
+    "storage_bucket": "rubberlive-6ab72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915046033254:android:705ce9998d9ce6fe13caa7",
+        "android_client_info": {
+          "package_name": "cbdev.rubberlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915046033254-uku59b6pb30kih6ua082tjvguch0k8vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cbdev.rubberlive",
+            "certificate_hash": "e23dcfc66738e3f5406a0e23143155a22cbf4285"
+          }
+        },
+        {
+          "client_id": "915046033254-3vo81kndk9b2g46hmo9ikdvf7lcksr0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJzJwP7sK8o602u3Y-2t4JbqavU09Ue0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915046033254-3vo81kndk9b2g46hmo9ikdvf7lcksr0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

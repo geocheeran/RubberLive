@@ -1,7 +1,9 @@
+import com.google.gms.googleservices.GoogleServicesPlugin
+
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     defaultConfig {
         applicationId "cbdev.rubberlive"
         minSdkVersion 18
@@ -27,4 +29,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'org.jsoup:jsoup:1.11.3'
     implementation 'com.android.support:cardview-v7:27.0.2'
+    implementation 'com.google.firebase:firebase-analytics:16.0.0'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.android.gms:play-services-analytics:16.0.0'
+    implementation 'com.google.android.gms:play-services-basement:15.0.1' 
+    implementation 'com.google.firebase:firebase-appindexing:19.0.0'
+
 }
+
+apply plugin: 'com.google.gms.google-services'
+GoogleServicesPlugin.config.disableVersionCheck = true

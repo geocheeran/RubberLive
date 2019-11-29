@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/geo_cheeran/Desktop/RubberLive-2-1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/41f4968c4d6112ba21fd8921a9519089/res/values-v23/values-v23.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/88734d53490c7da36bbb1a9a8d0e8323/cardview-v7-27.0.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/res/values-v23/values-v23.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/c217146f75bae827abd4932d2bd56acb/appcompat-v7-27.0.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

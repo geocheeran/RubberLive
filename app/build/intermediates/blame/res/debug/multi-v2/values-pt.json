@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/geo_cheeran/Desktop/RubberLive-2-1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "/Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a35a77634cbc3e04bece64817f2269bc/res/values-pt/values-pt.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/f81f66d97b984518f3c52a9a040e8f05/support-compat-27.0.2/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/res/values-pt/values-pt.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/c217146f75bae827abd4932d2bd56acb/appcompat-v7-27.0.2/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

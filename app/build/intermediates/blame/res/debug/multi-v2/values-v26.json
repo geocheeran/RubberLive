@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/geo_cheeran/Desktop/RubberLive-2-1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/res/values-v26/values-v26.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/c217146f75bae827abd4932d2bd56acb/appcompat-v7-27.0.2/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

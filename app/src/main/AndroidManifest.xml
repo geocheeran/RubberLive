@@ -3,7 +3,6 @@
     package="cbdev.rubberlive"
     android:versionCode="2"
     android:versionName="2.0.1">
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
