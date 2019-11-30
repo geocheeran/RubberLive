@@ -46,15 +46,14 @@
         <activity
             android:name="cbdev.rubberlive.MainActivity"
             android:screenOrientation="portrait" >
-            <intent-filter>
+            <intent-filter android:autoVerify="true" >
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="dkowsikpai.pythonanywhere.com"
-                    android:path="/index"
+                    android:host="webdevogect.pythonanywhere.com"
                     android:scheme="https" />
             </intent-filter>
         </activity>
