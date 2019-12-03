@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">915046033254-3vo81kndk9b2g46hmo9ikdvf7lcksr0o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://rubberlive-6ab72.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">915046033254</string>
+    <string name="google_api_key" translatable="false">AIzaSyAMJzJwP7sK8o602u3Y-2t4JbqavU09Ue0</string>
+    <string name="google_app_id" translatable="false">1:915046033254:android:705ce9998d9ce6fe13caa7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAMJzJwP7sK8o602u3Y-2t4JbqavU09Ue0</string>
+    <string name="google_storage_bucket" translatable="false">rubberlive-6ab72.appspot.com</string>
+    <string name="project_id" translatable="false">rubberlive-6ab72</string>
+</resources>

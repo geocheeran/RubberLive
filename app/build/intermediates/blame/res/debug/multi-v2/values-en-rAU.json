@@ -4,7 +4,7 @@
             "outputFile": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/0cb397ecad1e4939e7a86ecd93a2c6d3/appcompat-1.0.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/81f5897029820962ad5a7d046c5aec7a/core-1.0.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
