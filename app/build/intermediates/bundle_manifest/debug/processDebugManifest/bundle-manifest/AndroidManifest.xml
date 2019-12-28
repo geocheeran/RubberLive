@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cbdev.rubberlive"
-    android:versionCode="6"
+    android:versionCode="7"
     android:versionName="1.1" >
 
     <uses-sdk
@@ -28,7 +28,6 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <receiver
             android:name="cbdev.rubberlive.BootReceiver"

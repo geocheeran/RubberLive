@@ -3820,9 +3820,8 @@ public final class R {
     public static final int rubber_live_boot=0x7f07007f;
     public static final int shadow=0x7f070080;
     public static final int sharethis=0x7f070081;
-    public static final int splash_background=0x7f070082;
-    public static final int tooltip_frame_dark=0x7f070083;
-    public static final int tooltip_frame_light=0x7f070084;
+    public static final int tooltip_frame_dark=0x7f070082;
+    public static final int tooltip_frame_light=0x7f070083;
   }
   public static final class font {
     public static final int geo=0x7f080000;
@@ -4159,9 +4158,6 @@ public final class R {
   public static final class mipmap {
     public static final int ic_launcher=0x7f0d0000;
     public static final int ic_launcher_round=0x7f0d0001;
-    public static final int splash=0x7f0d0002;
-    public static final int splash_foreground=0x7f0d0003;
-    public static final int splash_round=0x7f0d0004;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0e0000;

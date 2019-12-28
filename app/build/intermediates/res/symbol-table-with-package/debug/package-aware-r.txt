@@ -747,7 +747,6 @@ drawable rubb
 drawable rubber_live_boot
 drawable shadow
 drawable sharethis
-drawable splash_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font geo
@@ -1074,9 +1073,6 @@ layout support_simple_spinner_dropdown_item
 menu menu_home
 mipmap ic_launcher
 mipmap ic_launcher_round
-mipmap splash
-mipmap splash_foreground
-mipmap splash_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
