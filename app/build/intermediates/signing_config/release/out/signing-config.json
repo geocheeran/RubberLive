@@ -1,1 +1,1 @@
-{"mName":"externalOverride","mStoreFile":"/home/hp/Documents/rubber_live_keystore.jks","mStorePassword":"cbdev@tcr","mKeyAlias":"key1","mKeyPassword":"cbdev@tcr","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"mName":"externalOverride","mStoreFile":"/home/hp/AndroidStudioProjects/RubberLive/keystore.jks","mStorePassword":"cbdev@tcr","mKeyAlias":"upload","mKeyPassword":"cbdev@tcr","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
