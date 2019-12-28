@@ -1,7 +1,8 @@
 package cbdev.rubberlive;
 
-import android.app.Activity;
 import android.app.AlarmManager;
+import android.app.DatePickerDialog;
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,26 +10,26 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import android.os.SystemClock;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.TaskStackBuilder;
+
 import android.os.Bundle;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.CookieManager;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 
 import static cbdev.rubberlive.R.*;
 
@@ -38,6 +39,16 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnKot, btnKoc, btnBan, btnKua;
     private boolean checkInternet;
+
+    public static final String NOTIFICATION_CHANNEL_ID = "10001" ;
+    private final static String default_notification_channel_id = "default" ;
+
+    String NotificationHeading = "Scheduled Notification";
+    String NotificationContent = "Tap to view today's price";
+
+
+//    TextView btnDate ;
+    final Calendar myCalendar = Calendar.getInstance() ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,25 +61,28 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-            if (getIntent().getBooleanExtra("closeornot", false)) {
-                finish();
+        if (getIntent().getBooleanExtra("closeornot", false)) {
+            finish();
 
         }
         setContentView(R.layout.main_activity);
 
-
+//       btnDate = findViewById(id. tvDate ) ;
 
         btnKot = findViewById(id.btnKottayam);
         btnKoc = findViewById(id.btnKochi);
         btnBan = findViewById(id.btnBangkok);
         btnKua = findViewById(id.btnKualalumpur);
 
+        scheduleNotification(getNotification(NotificationContent));
+
+
         btnKot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent kottayam = new Intent(getApplicationContext(), priceKottayam.class);
                 startActivity(kottayam);
-            }
+               }
         });
 
         btnKoc.setOnClickListener(new View.OnClickListener() {
@@ -96,6 +110,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        // ATTENTION: This was auto-generated to handle app links.
+        Intent appLinkIntent = getIntent();
+        String appLinkAction = appLinkIntent.getAction();
+        Uri appLinkData = appLinkIntent.getData();
     }
 
     @Override
@@ -182,6 +200,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+
 //    private void startAlarm(boolean isNotification, boolean isRepeat) {
 //        AlarmManager manager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 //        Intent myIntent;
@@ -196,6 +216,57 @@ public class MainActivity extends AppCompatActivity {
 //        myIntent = new Intent(MainActivity.this,AlarmNotificationReceiver.class);
 //        pendingIntent = PendingIntent.getBroadcast(this,0,myIntent,0);
 //        manager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY,pendingIntent);
+//    }
+
+    private void scheduleNotification (Notification notification) {
+        myCalendar.set(Calendar.HOUR_OF_DAY, 10);
+        myCalendar.set(Calendar.MINUTE, 0);
+        myCalendar.set(Calendar.SECOND, 0);
+        Intent notificationIntent = new Intent( getApplicationContext(), MyNotificationPublisher.class) ;
+        notificationIntent.putExtra(MyNotificationPublisher. NOTIFICATION_ID , 1 ) ;
+        notificationIntent.putExtra(MyNotificationPublisher. NOTIFICATION , notification) ;
+
+        notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
+                | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        PendingIntent pendingIntent = PendingIntent. getBroadcast ( this, 0 , notificationIntent , PendingIntent.FLAG_UPDATE_CURRENT ) ;
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context. ALARM_SERVICE ) ;
+        assert alarmManager != null;
+        // long delay = 100;
+        Log.e("kowsik", String.valueOf(myCalendar.getTimeInMillis()));
+        alarmManager.set(AlarmManager. RTC_WAKEUP , myCalendar.getTimeInMillis(), pendingIntent) ;
+    }
+    private Notification getNotification (String content) {
+        NotificationCompat.Builder builder = new NotificationCompat.Builder( this, default_notification_channel_id ) ;
+        builder.setContentTitle(NotificationHeading) ;
+        builder.setContentText(content) ;
+        builder.setSmallIcon(drawable.rubb ) ;
+        builder.setAutoCancel( true ) ;
+        builder.setChannelId( NOTIFICATION_CHANNEL_ID ) ;
+        return builder.build() ;
+    }
+//    DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+//        @Override
+//        public void onDateSet (DatePicker view , int year , int monthOfYear , int dayOfMonth) {
+//            myCalendar.set(Calendar.HOUR_OF_DAY, 23);
+//            myCalendar.set(Calendar.MINUTE, 30);
+//            myCalendar.set(Calendar.SECOND, 0);
+//            updateLabel() ;
+//        }
+//    } ;
+//    public void setDate (View view) {
+//        new DatePickerDialog(MainActivity. this, date ,
+//                myCalendar .get(Calendar. YEAR ) ,
+//                myCalendar .get(Calendar. MONTH ) ,
+//                myCalendar .get(Calendar. DAY_OF_MONTH )
+//
+//        ).show() ;
+//    }
+//    private void updateLabel () {
+//        String myFormat = "dd/MM/yy" ; //In which you need put here
+//        SimpleDateFormat sdf = new SimpleDateFormat(myFormat , Locale. getDefault ()) ;
+//        Date date = myCalendar .getTime() ;
+//        btnDate .setText(sdf.format(date)) ;
+//        scheduleNotification(getNotification( btnDate .getText().toString()) , date.getTime()) ;
 //    }
 }
 

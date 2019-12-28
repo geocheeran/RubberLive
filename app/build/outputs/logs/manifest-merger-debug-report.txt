@@ -1,209 +1,607 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a218cb77944d7fe1c6a2e446b309f5/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/41f4968c4d6112ba21fd8921a9519089/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5c2a6a8858bc770e28d2880475c3bf50/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2b4b6efee1b2054a131f97334fd4d302/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1bb644eeb60af0b1c8e11ffad78268e6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/7d26cef5eb8ca05f73ed90e418073a06/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b3225635a96b1a7d05800a964389d41b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a35a77634cbc3e04bece64817f2269bc/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/e680e757d702f732d760627f5341b74f/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:1-85:12
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51d663ac1b5c45570cdd224f9c99d284/firebase-appindexing-19.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/04ea8ce7f4eca12d276e9042a0c8c240/firebase-core-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1eba82c80ea8cbda47fe8b83825b4bdf/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8ef9677e72ee6b8fa0fc94c89816cd27/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/129a0ab54c9699777903826549b7814e/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ba2c3937976aa7bf90849a33fda3c52/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a0e2f53096405573ff03bebf7b8db2ae/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dd1e07d4fc6b3c25fb415f2c1bfc7979/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1673ce996ea95a107994785dd59cc50b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a1b0200cac7ada4fdd286b59b4f9e1b9/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/99f91edd4e03fc5fb4d0e3d504e3ee53/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d54a97a7d8007d8cfc804804f8099221/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/584ccd8eedfdfc6cd7608db2440688f7/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c7f3ead1d205c8058440c2d6d2731277/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c776d51eb37b6791402eeb4009ccf3f0/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12ed555bf09d5412b04fc435b38dcdb0/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/43cf8fa383cd3361ada0d4a4070a10a5/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/939199c43c8e287475046f22b65b18ba/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/73302ba377c169d7a402444c9ce6661d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7be516fd7073125ebbde93fe4835e272/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/95ba501da802b14437f5b1499bdde5ed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hp/.gradle/caches/transforms-2/files-2.1/8808545198c5571e06326cf014afe770/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/555925756b7cfdca3de194df26386b76/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5a4a788ab8ff35f58fba310e96324d2b/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8bef68c82b931e2f4491fbe03b8a16b9/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/da5e4cf52381a5e797331520a27f620f/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c364691131f49871db2ca7a0829699a9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/24d6926baafb8a8f46fa00d9fddac996/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e0a6b72a8b131f1dcdc4c4746fd90dc8/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6e1bc71846d9cc3449b4dcbaa1032f43/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7d4183f845f5cc39885b0b40a65b7390/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/2cea7cea900425ad5bfe8d3b6d322640/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dbca2b3ff98538dca84beb5c74970612/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cb4c7fc666f615b5fa6a12620a1d955c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/hp/.gradle/caches/transforms-2/files-2.1/6e2b0e49aa29cd55e13aaaf092fd54bb/play-services-measurement-base-15.0.4/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:1-103:12
 	package
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:3:5-31
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:5:5-32
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:6:5-32
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:8:5-78
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:10:5-82:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a218cb77944d7fe1c6a2e446b309f5/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a218cb77944d7fe1c6a2e446b309f5/AndroidManifest.xml:9:5-20
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:11:5-100:19
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51d663ac1b5c45570cdd224f9c99d284/firebase-appindexing-19.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51d663ac1b5c45570cdd224f9c99d284/firebase-appindexing-19.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/04ea8ce7f4eca12d276e9042a0c8c240/firebase-core-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/04ea8ce7f4eca12d276e9042a0c8c240/firebase-core-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1eba82c80ea8cbda47fe8b83825b4bdf/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1eba82c80ea8cbda47fe8b83825b4bdf/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8ef9677e72ee6b8fa0fc94c89816cd27/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8ef9677e72ee6b8fa0fc94c89816cd27/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/129a0ab54c9699777903826549b7814e/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/129a0ab54c9699777903826549b7814e/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ba2c3937976aa7bf90849a33fda3c52/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ba2c3937976aa7bf90849a33fda3c52/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a0e2f53096405573ff03bebf7b8db2ae/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a0e2f53096405573ff03bebf7b8db2ae/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dd1e07d4fc6b3c25fb415f2c1bfc7979/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dd1e07d4fc6b3c25fb415f2c1bfc7979/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hp/.gradle/caches/transforms-2/files-2.1/8808545198c5571e06326cf014afe770/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hp/.gradle/caches/transforms-2/files-2.1/8808545198c5571e06326cf014afe770/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5a4a788ab8ff35f58fba310e96324d2b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5a4a788ab8ff35f58fba310e96324d2b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/hp/.gradle/caches/transforms-2/files-2.1/6e2b0e49aa29cd55e13aaaf092fd54bb/play-services-measurement-base-15.0.4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/hp/.gradle/caches/transforms-2/files-2.1/6e2b0e49aa29cd55e13aaaf092fd54bb/play-services-measurement-base-15.0.4/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:14:9-50
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:15:9-50
 	android:icon
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:17:9-40
 receiver#cbdev.rubberlive.BootReceiver
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:enabled
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:19:13-35
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:21:13-35
 	android:exported
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:18:19-47
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:22:17-79
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:24:17-79
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:22:25-76
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:24:25-76
 category#android.intent.category.HOME
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:24:17-73
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:26:17-73
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:24:27-70
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:26:27-70
 receiver#cbdev.rubberlive.AlarmNotificationReceiver
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:27:9-62
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:29:9-63
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:27:19-60
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:29:19-60
 activity#cbdev.rubberlive.MainActivity
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:30:9-31:61
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:32:9-45:20
 	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:31:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:34:13-49
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:30:19-63
-activity#cbdev.rubberlive.SplashActivity
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:32:9-39:20
-	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:33:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:33:13-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:webdevogect.pythonanywhere.com+data:scheme:https
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:35:13-44:29
+	android:autoVerify
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:35:28-53
+action#android.intent.action.VIEW
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:32:19-65
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:34:13-38:29
-action#android.intent.action.MAIN
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:35:17-69
-	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:35:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:37:17-77
-	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:37:27-74
-activity#cbdev.rubberlive.AboutActivity
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:40:9-50:21
-	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:44:13-49
-	android:parentActivityName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:43:13-71
-	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:41:13-58
-intent-filter#action:name:android.intent.action.about+category:name:android.intent.category.DEFAULT
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:45:9-49:29
-action#android.intent.action.about
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:46:17-70
-	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:46:25-67
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:48:17-76
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:48:27-73
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:39:27-75
+data
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:41:17-43:69
+	android:host
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:43:21-66
+	android:scheme
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:42:21-43
+activity#cbdev.rubberlive.SplashActivity
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:46:9-56:20
+	android:screenOrientation
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:47:13-59
+tools:validation
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:49:13-87
+	testUrl
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:49:31-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:54:27-74
+activity#cbdev.rubberlive.AboutActivity
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:57:9-67:20
+	android:screenOrientation
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:61:13-49
+	android:parentActivityName
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:60:13-71
+	android:label
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:58:13-58
+intent-filter#action:name:android.intent.action.about+category:name:android.intent.category.DEFAULT
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:62:13-66:29
+action#android.intent.action.about
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:63:17-70
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:63:25-67
 service#cbdev.rubberlive.MyService
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:52:9-55:47
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:69:9-72:47
 	android:enabled
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:54:13-35
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:71:13-35
 	android:exported
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:55:13-36
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:53:13-38
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:70:13-38
 activity#cbdev.rubberlive.priceKottayam
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:58:9-62:51
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:75:9-79:52
 	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:62:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:79:13-49
 	android:parentActivityName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:61:13-71
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:78:13-71
 	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:60:13-52
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:77:13-52
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:59:13-58
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:76:13-58
 activity#cbdev.rubberlive.priceKochi
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:63:9-67:51
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:80:9-84:52
 	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:67:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:84:13-49
 	android:parentActivityName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:66:13-71
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:83:13-71
 	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:65:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:82:13-49
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:64:13-55
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:81:13-55
 activity#cbdev.rubberlive.priceBangkok
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:68:9-72:51
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:85:9-89:52
 	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:72:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:89:13-49
 	android:parentActivityName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:71:13-71
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:88:13-71
 	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:70:13-51
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:87:13-51
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:69:13-57
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:86:13-57
 activity#cbdev.rubberlive.priceKualalumpur
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:73:9-77:51
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:90:9-94:52
 	android:screenOrientation
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:77:13-49
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:94:13-49
 	android:parentActivityName
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:76:13-71
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:93:13-71
 	android:label
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:75:13-56
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:74:13-61
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:91:13-61
 meta-data#preloaded_fonts
-ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:79:9-81:57
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:96:9-98:57
 	android:resource
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:81:13-54
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:98:13-54
 	android:name
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml:80:13-43
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:97:13-43
+receiver#cbdev.rubberlive.MyNotificationPublisher
+ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:99:9-62
+	android:name
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml:99:19-59
 uses-sdk
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/dcc43a3318d1564c95a0fd26c804cefd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a218cb77944d7fe1c6a2e446b309f5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a218cb77944d7fe1c6a2e446b309f5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/41f4968c4d6112ba21fd8921a9519089/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/41f4968c4d6112ba21fd8921a9519089/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5c2a6a8858bc770e28d2880475c3bf50/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5c2a6a8858bc770e28d2880475c3bf50/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2b4b6efee1b2054a131f97334fd4d302/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/2b4b6efee1b2054a131f97334fd4d302/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1bb644eeb60af0b1c8e11ffad78268e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/1bb644eeb60af0b1c8e11ffad78268e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/7d26cef5eb8ca05f73ed90e418073a06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/7d26cef5eb8ca05f73ed90e418073a06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b3225635a96b1a7d05800a964389d41b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b3225635a96b1a7d05800a964389d41b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a35a77634cbc3e04bece64817f2269bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a35a77634cbc3e04bece64817f2269bc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/e680e757d702f732d760627f5341b74f/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/geo_cheeran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/e680e757d702f732d760627f5341b74f/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51d663ac1b5c45570cdd224f9c99d284/firebase-appindexing-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:19.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/51d663ac1b5c45570cdd224f9c99d284/firebase-appindexing-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/04ea8ce7f4eca12d276e9042a0c8c240/firebase-core-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/04ea8ce7f4eca12d276e9042a0c8c240/firebase-core-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1eba82c80ea8cbda47fe8b83825b4bdf/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1eba82c80ea8cbda47fe8b83825b4bdf/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8ef9677e72ee6b8fa0fc94c89816cd27/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8ef9677e72ee6b8fa0fc94c89816cd27/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/129a0ab54c9699777903826549b7814e/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/129a0ab54c9699777903826549b7814e/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ba2c3937976aa7bf90849a33fda3c52/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5ba2c3937976aa7bf90849a33fda3c52/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a0e2f53096405573ff03bebf7b8db2ae/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a0e2f53096405573ff03bebf7b8db2ae/jetified-firebase-measurement-connector-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dd1e07d4fc6b3c25fb415f2c1bfc7979/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dd1e07d4fc6b3c25fb415f2c1bfc7979/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1673ce996ea95a107994785dd59cc50b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1673ce996ea95a107994785dd59cc50b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a1b0200cac7ada4fdd286b59b4f9e1b9/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a1b0200cac7ada4fdd286b59b4f9e1b9/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/99f91edd4e03fc5fb4d0e3d504e3ee53/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/99f91edd4e03fc5fb4d0e3d504e3ee53/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d54a97a7d8007d8cfc804804f8099221/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d54a97a7d8007d8cfc804804f8099221/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/584ccd8eedfdfc6cd7608db2440688f7/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/584ccd8eedfdfc6cd7608db2440688f7/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c7f3ead1d205c8058440c2d6d2731277/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c7f3ead1d205c8058440c2d6d2731277/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c776d51eb37b6791402eeb4009ccf3f0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c776d51eb37b6791402eeb4009ccf3f0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12ed555bf09d5412b04fc435b38dcdb0/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/12ed555bf09d5412b04fc435b38dcdb0/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/43cf8fa383cd3361ada0d4a4070a10a5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/43cf8fa383cd3361ada0d4a4070a10a5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/939199c43c8e287475046f22b65b18ba/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/939199c43c8e287475046f22b65b18ba/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/73302ba377c169d7a402444c9ce6661d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/73302ba377c169d7a402444c9ce6661d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7be516fd7073125ebbde93fe4835e272/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7be516fd7073125ebbde93fe4835e272/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/95ba501da802b14437f5b1499bdde5ed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/95ba501da802b14437f5b1499bdde5ed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/4cf4b2af5b4dc357ea64e552dc6849f7/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hp/.gradle/caches/transforms-2/files-2.1/8808545198c5571e06326cf014afe770/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/hp/.gradle/caches/transforms-2/files-2.1/8808545198c5571e06326cf014afe770/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/555925756b7cfdca3de194df26386b76/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/555925756b7cfdca3de194df26386b76/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5a4a788ab8ff35f58fba310e96324d2b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/5a4a788ab8ff35f58fba310e96324d2b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8bef68c82b931e2f4491fbe03b8a16b9/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/8bef68c82b931e2f4491fbe03b8a16b9/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/da5e4cf52381a5e797331520a27f620f/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/da5e4cf52381a5e797331520a27f620f/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c364691131f49871db2ca7a0829699a9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/c364691131f49871db2ca7a0829699a9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/24d6926baafb8a8f46fa00d9fddac996/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/24d6926baafb8a8f46fa00d9fddac996/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e0a6b72a8b131f1dcdc4c4746fd90dc8/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/e0a6b72a8b131f1dcdc4c4746fd90dc8/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6e1bc71846d9cc3449b4dcbaa1032f43/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/6e1bc71846d9cc3449b4dcbaa1032f43/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7d4183f845f5cc39885b0b40a65b7390/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/7d4183f845f5cc39885b0b40a65b7390/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/2cea7cea900425ad5bfe8d3b6d322640/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/2cea7cea900425ad5bfe8d3b6d322640/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dbca2b3ff98538dca84beb5c74970612/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/dbca2b3ff98538dca84beb5c74970612/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cb4c7fc666f615b5fa6a12620a1d955c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/cb4c7fc666f615b5fa6a12620a1d955c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/hp/.gradle/caches/transforms-2/files-2.1/6e2b0e49aa29cd55e13aaaf092fd54bb/play-services-measurement-base-15.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] /home/hp/.gradle/caches/transforms-2/files-2.1/6e2b0e49aa29cd55e13aaaf092fd54bb/play-services-measurement-base-15.0.4/AndroidManifest.xml:20:5-44
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/geo_cheeran/Desktop/RubberLive-2-1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		ADDED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/AndroidStudioProjects/RubberLive/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/83da560fcc58b242e68c86ed1d66a8a7/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3bd6c6495a9b373523d09fd3849588d7/jetified-firebase-measurement-connector-impl-16.0.0/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/677f85b690e7df89fdae332fcb08d814/jetified-firebase-analytics-impl-16.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/1b53eecd9ca0ee8c73c6af25e5c477f8/jetified-firebase-analytics-16.0.0/AndroidManifest.xml:49:13-87
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/0596aa735f32b50bfd2071e4944411f4/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
+permission#cbdev.rubberlive.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
+uses-permission#cbdev.rubberlive.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:cbdev.rubberlive
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
+category#cbdev.rubberlive
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/3dea41308792974935459cab1ef514e6/jetified-firebase-iid-16.0.0/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/a7630981521ec085d138d36285db8b80/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/769c1cac3854b6c57d06286ce35353fb/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/hp/.gradle/caches/transforms-2/files-2.1/d8da0edc26a64101ce959795e6f70127/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
