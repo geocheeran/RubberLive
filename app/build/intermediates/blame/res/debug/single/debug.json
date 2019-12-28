@@ -696,6 +696,10 @@
         "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable_rubber_live_boot.jpeg.flat",
+        "source": "/home/hp/AndroidStudioProjects/RubberLive/app/src/main/res/drawable/rubber_live_boot.jpeg"
+    },
+    {
         "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -1304,12 +1308,12 @@
         "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/home/hp/.gradle/caches/transforms-2/files-2.1/db77aadc37a75aa5fe4d9184caf8890a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/home/hp/AndroidStudioProjects/RubberLive/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",

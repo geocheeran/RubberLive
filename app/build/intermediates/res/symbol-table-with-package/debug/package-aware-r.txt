@@ -744,6 +744,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rubb
+drawable rubber_live_boot
 drawable shadow
 drawable sharethis
 drawable tooltip_frame_dark
@@ -955,7 +956,6 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id tvDate
 id tvDomestic
 id tvINRBang
 id tvINRKoch
